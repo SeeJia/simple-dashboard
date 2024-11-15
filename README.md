@@ -12,5 +12,4 @@
 #### Development: HTML, CSS, JavaScript, Bootstrap
 
 ## 5. Screenshot
-#### Add screenshots of the dashboard here to showcase the UI design.
 #### ![Dashboard Screenshot](images/dashboard_screenshot.png)
