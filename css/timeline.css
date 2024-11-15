@@ -1,0 +1,26 @@
+.timeline {
+    display: flex;
+    align-items: start;
+    margin-bottom: 8px; /* 给每个timeline元素之间一些间距 */
+  }
+
+.timeline i {
+    position: relative;
+    font-size: 24px;
+    z-index: 1; /* 确保图标在上层 */
+}
+
+.timeline i::after {
+    content: '';
+    position: absolute;
+    top: 100%; /* 从图标底部开始 */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;  /* 线条的宽度 */
+    height: 30px; /* 线条的高度（可以根据需要调整） */
+    background-color: #E5E5E5; /* 线条颜色 */
+    z-index: 0; /* 确保线条在图标下方 */
+}
+
+  
+  
